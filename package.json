@@ -1,0 +1,42 @@
+{
+  "name": "backend_rick_morty",
+  "version": "1.0.0",
+  "description": "Technical test Blossom",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "setup": "ts-node src/migrations/DDL/01_create_characters_table.ts",
+    "seed": "ts-node src/seed/seedCharacters.ts",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.4.0",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "graphql": "^16.6.0",
+    "ioredis": "^5.3.2",
+    "mysql2": "^3.2.0",
+    "node-cron": "^3.0.2",
+    "pg": "^8.11.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.19.11",
+    "@types/node-cron": "^3.0.11",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "author": "Alejandro Pulgarin",
+  "license": "ISC"
+}
