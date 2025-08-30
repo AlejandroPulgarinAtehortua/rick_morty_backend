@@ -4,7 +4,7 @@ import { sequelize } from './db';
 import './jobs/updateCharactersCron';
 
 
-const PORT = process.env.PORT ?? 4000;
+const PORT = process.env.PORT ?? 3001;
 
 
 async function main() {
