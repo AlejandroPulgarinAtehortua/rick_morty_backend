@@ -8,7 +8,7 @@
   Este proyecto es una API backend construida con Node.js, Express, GraphQL y Sequelize, que permite consultar y almacenar personajes de la serie Rick and Morty. Utiliza una base de datos relacional y cacheo con Redis para mejorar el rendimiento.
 
   ## Características
-  - Node versopm 2.11.0
+  - Node version 20.19.4
   - API GraphQL para consultar personajes con filtros.
   - Sincronización periódica de personajes desde la API oficial de Rick and Morty.
   - Cacheo de consultas con Redis.
