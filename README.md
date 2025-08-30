@@ -83,6 +83,24 @@
     npm start
     ```
 
+  ## ERD
+```text
++------------------+
+|   characters     |
++------------------+
+| id (PK)          |
+| rmId             |
+| name             |
+| status           |
+| species          |
+| type             |
+| gender           |
+| origin           |
+| image            |
+| createdAt        |
+| updatedAt        |
++------------------+
+```
 
   ## Uso
 
